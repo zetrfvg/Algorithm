@@ -3,7 +3,7 @@ struct DSU{
 	int n;
 	vector<T> p,siz;
 	DSU(int n):p(n+1),siz(n+1){
-		iota(all(p),0);
+		iota(p.begin(),p.end(),0);
 		for(int i=0;i<n+1;i++) siz[i]=1;
 	}
 	T findd(T x){
