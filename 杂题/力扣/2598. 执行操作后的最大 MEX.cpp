@@ -10,9 +10,11 @@ class Solution {
 public:
     int findSmallestInteger(vector<int>& nums, int value){
         int n=nums.size();
-        for(auto &c:nums) c=(c%value+value)%value;
         unordered_map<int,int> g;
-        for(auto c:nums) g[c]++;
+        for(auto &c:nums){
+            c=(c%value+value)%value;
+            g[c]++;
+        }
         for(int i=0;i<n;i++){
             if(g[i%value]) g[i%value]--;
             else return i;
