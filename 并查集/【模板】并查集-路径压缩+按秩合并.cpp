@@ -2,7 +2,7 @@ template<typename T>
 struct DSU{
 	int n;
 	vector<T> p,siz;
-	DSU(int _n):p(n+1),siz(n+1),n(_n){
+	DSU(int _n):p(_n+1),siz(_n+1),n(_n){
 		iota(p.begin(),p.end(),0);
 		for(int i=0;i<=n;i++) siz[i]=1;
 	}
