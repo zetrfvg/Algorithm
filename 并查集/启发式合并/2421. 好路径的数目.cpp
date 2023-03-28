@@ -20,13 +20,13 @@ struct DSU{
 		x=findd(x),y=findd(y);
 		if(x==y) return;
 		if(mx[x]>mx[y]){
-        p[y]=x;
-    }else if(mx[x]<mx[y]){
-        p[x]=y;
-    }else{
-        p[y]=x;
-        cnt[x]+=cnt[y];
-    }
+		p[y]=x;
+	    }else if(mx[x]<mx[y]){
+		p[x]=y;
+	    }else{
+		p[y]=x;
+		cnt[x]+=cnt[y];
+	    }
 	}
 };
 class Solution {
