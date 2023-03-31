@@ -16,7 +16,7 @@ vector<vector<int>> fa(N,vector<int>(15));
 vector<vector<pair<int,int>>> e(N);
 vector<int> dep(N),d(N);
 
-void dfs(int x,int father,int cur){
+void dfs(int x,int father){
 	dep[x]=dep[father]+1;
 	fa[x][0]=father;
 	for(int i=1;i<=15;i++){
@@ -24,8 +24,8 @@ void dfs(int x,int father,int cur){
 	}
 	for(auto &[y,w]:e[x]){
 		if(y!=father){
-			d[y]=cur+w;
-			dfs(y,x,cur+w);
+			d[y]=d[x]+w;
+			dfs(y,x);
 		}
 	}
 }
@@ -54,7 +54,7 @@ int main(){
 		e[a].push_back({b,k});
 		e[b].push_back({a,k});
 	}
-	dfs(1,0,0);
+	dfs(1,0);
 	for(int i=0;i<m;i++){
 		int x,y;
 		cin>>x>>y;
