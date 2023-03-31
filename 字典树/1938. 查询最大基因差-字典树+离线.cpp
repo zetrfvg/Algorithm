@@ -10,7 +10,7 @@
 class Solution {
 public:
     static const int N=1e5+5;
-    int tr[31*N][2],cnt[31*N],idx=0;
+    int tr[18*N][2],cnt[18*N],idx=0;
     void insert(int u,int k){
         int p=0;
         for(int i=30;~i;i--){
