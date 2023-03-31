@@ -6,7 +6,7 @@ using namespace std;
 typedef long long ll;
 
 const int N=100010;
-int tr[31*N][2],cnt[31*N],idx;
+int tr[31*N][2],idx;
 int a[N];
 
 void insert(int u){
