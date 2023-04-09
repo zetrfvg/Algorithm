@@ -7,7 +7,7 @@ public:
     vector<long long> distance(vector<int>& a) {
         int n=a.size();
         vector<long long> ans(n);
-        map<int,pair<long long,long long>> pre,suf;
+        unordered_map<int,pair<long long,long long>> pre,suf;
         for(int i=0;i<n;i++){
             suf[a[i]].first++;
             suf[a[i]].second+=i;
