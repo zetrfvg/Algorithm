@@ -19,12 +19,11 @@ public:
                 if(i>num[pos]) break;
             }
             int nxtfull=full&&(num[pos]==i);
-            int nxtflag,nxtlast;
+            int nxtflag;
             if(!flag&&!i){
                 nxtflag=0;
             }else{
                 nxtflag=1;
-                nxtlast=i;
             }
             res+=dp(pos-1,nxtfull,nxtflag);
         }
