@@ -16,8 +16,7 @@ public:
                 }
             }
         }
-        if(!q.size()||q.size()==n*m) return -1;
-        int ans=0;
+        int ans=-1;
         while(!q.empty()){
             auto [x,y]=q.front();
             q.pop();
