@@ -9,7 +9,7 @@ public:
         long long s=0,cnt=0,ans=0;
         for(int l=0,r=0;r<n;r++){
             s+=nums[r];
-            if(!v[nums[r]]++) cnt++;
+            cnt+=!v[nums[r]]++;
             if(cnt==k) ans=max(ans,s);
             if(r>=k-1){
                 if(!--v[nums[l]]) cnt--;
