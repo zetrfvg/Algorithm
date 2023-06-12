@@ -1,5 +1,5 @@
 /*
-计算nums的和sum，求sum与目标值goal之差的绝对值
+计算nums的和sum，求sum与目标值goal之差的绝对值delta
 每次贪心的选x，使abs(x)=limit，那么总共要选(delta+limit-1)/limit个
 */
 class Solution {
