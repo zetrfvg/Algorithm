@@ -11,7 +11,7 @@ public:
         for(auto p=l2;p;p=p->next){
             s2.push(p->val);
         }
-        ListNode *ans=new ListNode(0),*p;
+        ListNode *ans=NULL,*p;
         int rest=0;
         while(!s1.empty()||!s2.empty()||rest){
             if(!s1.empty()){
@@ -23,10 +23,10 @@ public:
                 s2.pop();
             }
             p=new ListNode(rest%10);
-            p->next=ans->next;
-            ans->next=p;
+            if(ans) p->next=ans;
+            ans=p;
             rest/=10;
         }
-        return ans->next;
+        return ans;
     }
 };
