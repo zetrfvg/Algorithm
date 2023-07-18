@@ -22,10 +22,8 @@ public:
                 q.push({intervals[j][0]-intervals[j][1]-1,j});
                 j++;
             }
-            while(!q.empty()){
-                auto &[dis,p]=q.top();
-                if(intervals[p][1]<queries[ids[i]]) q.pop();
-                else break;
+            while(!q.empty()&&intervals[q.top().second][1]<queries[ids[i]]){
+                q.pop();
             }
             if(!q.empty()) ans[ids[i]]=-q.top().first;
         }
