@@ -8,7 +8,6 @@ class Solution {
 public:
     bool isThereAPath(vector<vector<int>>& grid) {
         int n=grid.size(),m=grid[0].size();
-        if((n+m)%2==0) return false;
         vector<vector<bitset<210>>> dp(n+1,vector<bitset<210>>(m+1));
         dp[0][1][105]=dp[1][0][105]=1;
         for(int i=1;i<=n;i++){
