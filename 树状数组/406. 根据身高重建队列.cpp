@@ -2,6 +2,7 @@
 构造：二分+树状数组
 排序：对身高第一维升序，编号第二维降序排序
 用树状数组维护位置，对于枚举的people[i]，我们需要找到当前树状数组中第people[i][1]个空位，这样留出前面people[i][1]-1个空位给身高不小于people[i]的人
+找到第people[i][1]个空位，可以在树状数组上二分操作来查找
 */
 template<typename T>
 struct Fenwick{
