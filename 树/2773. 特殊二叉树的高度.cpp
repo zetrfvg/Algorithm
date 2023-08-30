@@ -7,19 +7,21 @@ u的右指针指向比u大的点，u的左指针指向比u小的点
 class Solution {
 public:
     int heightOfTree(TreeNode* root) {
-        int dep=-1;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            int sz=q.size();
-            while(sz--){
-                auto p=q.front();
-                q.pop();
-                if(p->left&&p->left->right!=p) q.push(p->left);
-                if(p->right&&p->right->left!=p) q.push(p->right);
+        int ans=0;
+        function<void(TreeNode*,int)> dfs=[&](TreeNode* root,int dep){
+            if(!root) return;
+            if(root->left&&root->left->right==root){
+                ans=max(ans,dep);
+                return;
             }
-            dep++;
-        }
-        return dep;
+            if(root->right&&root->right->left==root){
+                ans=max(ans,dep);
+                return;
+            }
+            dfs(root->left,dep+1);
+            dfs(root->right,dep+1);
+        };
+        dfs(root,0);
+        return ans;
     }
 };
