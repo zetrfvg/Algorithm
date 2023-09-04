@@ -4,7 +4,7 @@
 把所有出现次数超过i的字符其贡献累乘起来再减去1(减去空集，空集不合法)，即为各个字符出现次数为i的子序列数量
 同样这里组合数的阶乘及其逆元都需要预处理
 */
-Class Solution {
+class Solution {
 public:
 
     Solution(){
