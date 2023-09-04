@@ -13,9 +13,7 @@ public:
         sort(prices.begin(),prices.end());
         vector<long long> ans(sz,1e14);
         for(int i=0;i<sz;i++) queries[i].push_back(i);
-        sort(queries.begin(),queries.end(),[](const auto &x,const auto &y){
-            return x[0]>y[0];
-        });
+        sort(queries.begin(),queries.end(),greater<>());
         vector<long long> pre(n+1),suf{0};
         for(int i=0;i<n;i++) pre[i+1]=1LL*pre[i]+prices[i];
         auto calc=[&](int cnt,int m,int k){
@@ -28,7 +26,7 @@ public:
                 suf.push_back(suf.back()+1LL*prices[pre.size()-2]);
                 pre.pop_back();
             }
-            int l=max(m-(int)suf.size()+1,0),r=min((int)pre.size()-1,m);//预处理能从前缀中选取的巧克力数量的上下界
+            int l=max(m-(int)suf.size()+1,0),r=min((int)pre.size()-1,m);
             while(r-l>3){
                 int mid=(r-l)/3;
                 if(calc(l+mid,m,k)>calc(r-mid,m,k)) l+=mid;
