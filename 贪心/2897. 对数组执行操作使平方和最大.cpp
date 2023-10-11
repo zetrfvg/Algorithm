@@ -6,25 +6,26 @@
 */
 class Solution {
 public:
-    int maxSum(vector<int>& a, int k) {
+    int maxSum(vector<int>& nums, int k) {
         const int mod=1e9+7;
-        int n=a.size();
-        sort(a.begin(),a.end(),greater<>());
+        int n=nums.size();
+        sort(nums.begin(),nums.end(),greater<>());
         vector<queue<int>> p(31);
         for(int i=0;i<n;i++){
             for(int j=0;j<=30;j++){
-                if(a[i]&(1<<j)&&!p[j].empty()){
-                    a[p[j].front()]|=(1<<j);
+                if(nums[i]&(1<<j)&&!p[j].empty()){
+                    nums[p[j].front()]|=(1<<j);
                     p[j].pop();
-                    a[i]&=~(1<<j);
+                    nums[i]&=~(1<<j);
                 }
             }
             for(int j=0;j<=30;j++){
-                if(~a[i]&(1<<j)) p[j].push(i);
+                if(~nums[i]&(1<<j)) p[j].push(i);
             }
         }
         int ans=0;
-        for(int i=0;i<k;i++) ans=(ans+1LL*a[i]*a[i]%mod)%mod;
+        for(int i=0;i<k;i++) ans=(ans+1LL*nums[i]*nums[i]%mod)%mod;
         return ans;
     }
 };
+
