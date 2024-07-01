@@ -13,5 +13,12 @@
 | 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
 | 并查集 | [P3367](https://www.luogu.com.cn/problem/P3367) | [代码](https://www.luogu.com.cn/record/163598081) | |
 | 后缀数组 | [P3809](https://www.luogu.com.cn/problem/P3809) | | |
-| 分块 | [3372](https://www.luogu.com.cn/problem/3372) | [代码](https://www.luogu.com.cn/record/124661732) | 区间加、区间和 |
-| 线段树 | [3372](https://www.luogu.com.cn/problem/3372) | [代码](https://www.luogu.com.cn/record/86823146) | 区间加、区间和 |
+| 分块 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/124661732) | 区间加、区间和 |
+| 线段树 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/86823146) | 区间加、区间和 |
+| 裴蜀定理 | [P3372](https://www.luogu.com.cn/problem/P3372) | | |
+| LCT | [P3690](https://www.luogu.com.cn/problem/P3690) | | |
+| 静态点分治 | [P3806](https://www.luogu.com.cn/problem/P3806) | | 询问树上是否存在距离为k的点对 |
+| 线段树 | [P3373](https://www.luogu.com.cn/problem/P3373) | | 区间加、区间乘、区间和 |
+| AC自动机 | [P5357](https://www.luogu.com.cn/problem/P5357) | [代码](https://www.luogu.com.cn/record/158359824) | 求若干模式串在主串中出现的次数 |
+
+
