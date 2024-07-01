@@ -5,4 +5,4 @@
 | KMP | [P3375](https://www.luogu.com.cn/problem/P3375) | | |
 | 堆 | [P3378](https://www.luogu.com.cn/problem/P3378) | [代码](https://www.luogu.com.cn/record/163592425) | STL优先队列模拟 |
 | 排序 | [P1177](https://www.luogu.com.cn/problem/P1177) | [代码](https://www.luogu.com.cn/record/163593839) | 归并排序实现 |
-
+| 缩点 | [P3387](https://www.luogu.com.cn/problem/P3387) | [代码](https://www.luogu.com.cn/record/124300900) | 缩点后拓扑排序+DP |
