@@ -13,3 +13,5 @@
 | 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
 | 并查集 | [P3367](https://www.luogu.com.cn/problem/P3367) | [代码](https://www.luogu.com.cn/record/163598081) | |
 | 后缀数组 | [P3809](https://www.luogu.com.cn/problem/P3809) | | |
+| 分块 | [3372](https://www.luogu.com.cn/problem/3372) | [代码](https://www.luogu.com.cn/record/124661732) | 区间加、区间和 |
+| 线段树 | [3372](https://www.luogu.com.cn/problem/3372) | [代码](https://www.luogu.com.cn/record/86823146) | 区间加、区间和 |
