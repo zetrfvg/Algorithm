@@ -13,12 +13,15 @@
 | 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
 | 并查集 | [P3367](https://www.luogu.com.cn/problem/P3367) | [代码](https://www.luogu.com.cn/record/163598081) | |
 | 后缀数组 | [P3809](https://www.luogu.com.cn/problem/P3809) | | |
-| 分块 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/124661732) | 区间加、区间和 |
-| 线段树 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/86823146) | 区间加、区间和 |
 | 裴蜀定理 | [P3372](https://www.luogu.com.cn/problem/P3372) | | |
 | LCT | [P3690](https://www.luogu.com.cn/problem/P3690) | | |
 | 静态点分治 | [P3806](https://www.luogu.com.cn/problem/P3806) | | 询问树上是否存在距离为k的点对 |
+| 分块 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/124661732) | 区间加、区间和 |
+| 线段树 | [P3372](https://www.luogu.com.cn/problem/P3372) | [代码](https://www.luogu.com.cn/record/86823146) | 区间加、区间和 |
 | 线段树 | [P3373](https://www.luogu.com.cn/problem/P3373) | | 区间加、区间乘、区间和 |
+| 线段树 | [P6242](https://www.luogu.com.cn/problem/P6242) | [代码](https://www.luogu.com.cn/record/87807913) | 区间最值操作、区间历史最值 |
+| 可持久化线段树（主席树） | [P3919](https://www.luogu.com.cn/problem/P3919) | [代码](https://www.luogu.com.cn/record/123384847) | 可持久化数组 |
+| 可持久化线段树（主席树） | [P3834](https://www.luogu.com.cn/problem/P3834) | [代码](https://www.luogu.com.cn/record/123379708) | 静态区间第k小 |
 | AC自动机 | [P5357](https://www.luogu.com.cn/problem/P5357) | [代码](https://www.luogu.com.cn/record/158359824) | 求若干模式串在主串中出现的次数 |
 | 割点 | [P3388](https://www.luogu.com.cn/problem/P3388) | | 求割点模板 |
 | 实数三分 | [P1883](https://www.luogu.com.cn/problem/P1883) | [代码](https://www.luogu.com.cn/record/101749147) | 二次函数、浮点数 |
@@ -34,6 +37,19 @@
 | 最小生成树 | [P3366](https://www.luogu.com.cn/problem/P3366) | [代码](https://www.luogu.com.cn/record/86899397) | 克鲁斯卡尔 |
 | 高斯消元 | [P3389](https://www.luogu.com.cn/problem/P3389) | [代码](https://www.luogu.com.cn/record/86899397) | 求解线性方程组 |
 | 扩展欧拉定理 | [P5091](https://www.luogu.com.cn/problem/P5091) | | 求解a^b mod p，当b极大的时候，如b=10^1000000 |
-
+| 后缀自动机 | [P3804](https://www.luogu.com.cn/problem/P3804) | [代码](https://www.luogu.com.cn/record/124070592) |  子串的出现次数 |
+| 点双连通分量 | [P8435](https://www.luogu.com.cn/problem/P8435) | [代码](https://www.luogu.com.cn/record/112226019) | |
+| 最短路 | [P3371](https://www.luogu.com.cn/problem/P3371) | [代码](https://www.luogu.com.cn/record/86878607) | Dijkstra |
+| 最短路 | [P3371](https://www.luogu.com.cn/problem/P3371) | [代码](https://www.luogu.com.cn/record/86881129) | SPFA |
+| 最短路 | [P3371](https://www.luogu.com.cn/problem/P3371) | [代码](https://www.luogu.com.cn/record/86880433) | BellmanFord |
+| 全源最短路 | [P5905](https://www.luogu.com.cn/problem/P5905) | | Johnson算法 |
+| 点双连通分量 | [P8435](https://www.luogu.com.cn/problem/P8435) | [代码](https://www.luogu.com.cn/record/112226019) | |
+| LCA | [P3379](https://www.luogu.com.cn/problem/P3379) | [代码](https://www.luogu.com.cn/record/86908683) | 树剖求法 |
+| 单调队列 | [P1886](https://www.luogu.com.cn/problem/P1886) | [代码](https://www.luogu.com.cn/record/101502837) | 区间最大值 |
+| Z函数（扩展KMP） | [P5410](https://www.luogu.com.cn/problem/P5410) | | |
+| 二分图 | [P3386](https://www.luogu.com.cn/problem/P3386) | | 最大匹配 |
+| 中国剩余定理 | [P1495](https://www.luogu.com.cn/problem/P1495) | | |
+| 扩展中国剩余定理 | [P4777](https://www.luogu.com.cn/problem/P4777) | | |
+| 树链剖分 | [P3384](https://www.luogu.com.cn/problem/P3384) | [代码](https://www.luogu.com.cn/record/86935904) | 动态处理树上路径信息 |
 
 
