@@ -51,5 +51,9 @@
 | 中国剩余定理 | [P1495](https://www.luogu.com.cn/problem/P1495) | | |
 | 扩展中国剩余定理 | [P4777](https://www.luogu.com.cn/problem/P4777) | | |
 | 树链剖分 | [P3384](https://www.luogu.com.cn/problem/P3384) | [代码](https://www.luogu.com.cn/record/86935904) | 动态处理树上路径信息 |
+| LIS | [LC300](https://leetcode.cn/problems/longest-increasing-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-increasing-subsequence/submissions/414630459/) | DP解法 |
+| LIS | [LC300](https://leetcode.cn/problems/longest-increasing-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-increasing-subsequence/submissions/416834469/) | 贪心+二分解法 |
+| LCS | [LC1143](https://leetcode.cn/problems/longest-common-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-common-subsequence/submissions/414687183/) | DP解法 |
+
 
 
