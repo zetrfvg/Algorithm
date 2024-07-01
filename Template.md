@@ -3,4 +3,5 @@
 | 栈 | [B3614](https://www.luogu.com.cn/problem/B3614) | [代码](https://www.luogu.com.cn/record/163586545) | |
 | 马拉车 | [P3805](https://www.luogu.com.cn/problem/P3805)  | [代码](https://www.luogu.com.cn/record/163591250) | 最长回文子串的长度 |
 | KMP | [P3375](https://www.luogu.com.cn/problem/P3375) | | |
+| 堆 | [P3378](https://www.luogu.com.cn/problem/P3378) | [代码](https://www.luogu.com.cn/record/163592425) | STL优先队列模拟 |
 
