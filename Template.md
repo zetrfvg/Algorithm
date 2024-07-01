@@ -20,5 +20,14 @@
 | 静态点分治 | [P3806](https://www.luogu.com.cn/problem/P3806) | | 询问树上是否存在距离为k的点对 |
 | 线段树 | [P3373](https://www.luogu.com.cn/problem/P3373) | | 区间加、区间乘、区间和 |
 | AC自动机 | [P5357](https://www.luogu.com.cn/problem/P5357) | [代码](https://www.luogu.com.cn/record/158359824) | 求若干模式串在主串中出现的次数 |
+| 割点 | [P3388](https://www.luogu.com.cn/problem/P3388) | | 求割点模板 |
+| 实数三分 | [P1883](https://www.luogu.com.cn/problem/P1883) | [代码](https://www.luogu.com.cn/record/101749147) | 二次函数、浮点数 |
+| 平衡树 | [P3369](https://www.luogu.com.cn/problem/P3369) | | |
+| 最小表示法 | [P1368](https://www.luogu.com.cn/problem/P1368) | [代码](https://www.luogu.com.cn/record/86543834) | 循环同构串中字典序最小的一个 |
+| 树状数组 | [P3374](https://www.luogu.com.cn/problem/P3374) | [代码](https://www.luogu.com.cn/record/163601068) | 单点加、区间和 |
+| 树状数组 | [P3368](https://www.luogu.com.cn/problem/P3368) | [代码](https://www.luogu.com.cn/record/163601798) | 单点查询、区间加 |
+| 线性筛 | [P3383](https://www.luogu.com.cn/problem/P3383) | [代码](https://www.luogu.com.cn/record/87263453) | 欧拉筛、线性筛 |
+| 最大流 | [P3376](https://www.luogu.com.cn/problem/P3376) | | |
+| 平衡树 | [P3391](https://www.luogu.com.cn/problem/P3391) | | 区间翻转 |
 
 
