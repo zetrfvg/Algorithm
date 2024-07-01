@@ -10,3 +10,4 @@
 | 快速幂 | [P1226](https://www.luogu.com.cn/problem/P1226) | [代码](https://www.luogu.com.cn/record/163595933) | |
 | 字典树 | [P8306](https://www.luogu.com.cn/problem/P8306) | [代码](https://www.luogu.com.cn/record/124108179) | 查前缀 |
 | 线性基 | [P3812](https://www.luogu.com.cn/problem/P3812) | [代码](https://www.luogu.com.cn/record/125099701) | 异或和最大 |
+| 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
