@@ -8,3 +8,4 @@
 | 缩点 | [P3387](https://www.luogu.com.cn/problem/P3387) | [代码](https://www.luogu.com.cn/record/124300900) | 缩点后拓扑排序+DP |
 | ST表 | [P3865](https://www.luogu.com.cn/problem/P3865) | [代码](https://www.luogu.com.cn/record/124004599) | 区间最大值 |
 | 快速幂 | [P1226](https://www.luogu.com.cn/problem/P1226) | [代码](https://www.luogu.com.cn/record/163595933) | |
+| 字典树 | [P8306](https://www.luogu.com.cn/problem/P8306) | [代码](https://www.luogu.com.cn/record/124108179) | 查前缀 |
