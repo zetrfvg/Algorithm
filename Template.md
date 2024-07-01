@@ -30,5 +30,10 @@
 | 线性筛 | [P3383](https://www.luogu.com.cn/problem/P3383) | [代码](https://www.luogu.com.cn/record/87263453) | 欧拉筛、线性筛 |
 | 最大流 | [P3376](https://www.luogu.com.cn/problem/P3376) | | |
 | 矩阵快速幂 | [P3390](https://www.luogu.com.cn/problem/P3390) | [代码](https://www.luogu.com.cn/record/163603169) | |
+| 字符串哈希 | [P3370](https://www.luogu.com.cn/problem/P3370) | [代码](https://www.luogu.com.cn/record/124106916) | |
+| 最小生成树 | [P3366](https://www.luogu.com.cn/problem/P3366) | [代码](https://www.luogu.com.cn/record/86899397) | 克鲁斯卡尔 |
+| 高斯消元 | [P3389](https://www.luogu.com.cn/problem/P3389) | [代码](https://www.luogu.com.cn/record/86899397) | 求解线性方程组 |
+| 扩展欧拉定理 | [P5091](https://www.luogu.com.cn/problem/P5091) | | 求解a^b mod p，当b极大的时候，如b=10^1000000 |
+
 
 
