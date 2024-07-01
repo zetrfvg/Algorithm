@@ -28,7 +28,7 @@
 | 平衡树 | [P3369](https://www.luogu.com.cn/problem/P3369) | | |
 | 平衡树 | [P3391](https://www.luogu.com.cn/problem/P3391) | | 区间翻转 |
 | 最小表示法 | [P1368](https://www.luogu.com.cn/problem/P1368) | [代码](https://www.luogu.com.cn/record/86543834) | 循环同构串中字典序最小的一个 |
-| 树状数组 | [P3374](https://www.luogu.com.cn/problem/P3374) | [代码](https://www.luogu.com.cn/record/163601068) | 单点加、区间和 |
+| 树状数组 | [P3374](https://www.luogu.com.cn/problem/P3374) | [代码](https://www.luogu.com.cn/record/163601068) | 单点加、区间查询 |
 | 树状数组 | [P3368](https://www.luogu.com.cn/problem/P3368) | [代码](https://www.luogu.com.cn/record/163601798) | 单点查询、区间加 |
 | 线性筛 | [P3383](https://www.luogu.com.cn/problem/P3383) | [代码](https://www.luogu.com.cn/record/87263453) | 欧拉筛、线性筛 |
 | 最大流 | [P3376](https://www.luogu.com.cn/problem/P3376) | | |
