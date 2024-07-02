@@ -12,7 +12,7 @@
 | 线性基 | [P3812](https://www.luogu.com.cn/problem/P3812) | [代码](https://www.luogu.com.cn/record/125099701) | 异或和最大 |
 | 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
 | 并查集 | [P3367](https://www.luogu.com.cn/problem/P3367) | [代码](https://www.luogu.com.cn/record/163598081) | |
-| 可持久化并查集 | [LC1724](https://www.luogu.com.cn/problem/LC1724) | [代码](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths-ii/solutions/2419919/ke-chi-jiu-hua-bing-cha-ji-tong-yong-by-afo4s/) | 本质上是用一个可持久化数组来维护并查集的fa数组 |
+| 可持久化并查集 | [P3402](https://www.luogu.com.cn/problem/P3402) | [代码](https://www.luogu.com.cn/record/123393988) | 本质上是用一个可持久化数组来维护并查集的fa数组 |
 | 后缀数组 | [P3809](https://www.luogu.com.cn/problem/P3809) | | |
 | 裴蜀定理 | [P3372](https://www.luogu.com.cn/problem/P3372) | | |
 | LCT | [P3690](https://www.luogu.com.cn/problem/P3690) | | |
