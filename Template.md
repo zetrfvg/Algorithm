@@ -55,6 +55,7 @@
 | LIS | [LC300](https://leetcode.cn/problems/longest-increasing-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-increasing-subsequence/submissions/414630459/) | DP解法 |
 | LIS | [LC300](https://leetcode.cn/problems/longest-increasing-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-increasing-subsequence/submissions/416834469/) | 贪心+二分解法 |
 | LCS | [LC1143](https://leetcode.cn/problems/longest-common-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-common-subsequence/submissions/414687183/) | DP解法 |
+| 01背包 | [P1048](https://www.luogu.com.cn/problem/P1048) | [代码](https://www.luogu.com.cn/record/86328866) | 滚动数组 |
 
 
 
