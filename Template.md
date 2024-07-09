@@ -58,6 +58,7 @@
 | LCS | [LC1143](https://leetcode.cn/problems/longest-common-subsequence/description/) | [代码](https://leetcode.cn/problems/longest-common-subsequence/submissions/414687183/) | DP解法 |
 | 01背包 | [P1048](https://www.luogu.com.cn/problem/P1048) | [代码](https://www.luogu.com.cn/record/86328866) | 滚动数组 |
 | 虚树 | [P2495](https://www.luogu.com.cn/problem/P2495) | [代码](https://www.luogu.com.cn/record/142682043) | 建立虚树后DP |
+| CDQ分治 | [P3810](https://www.luogu.com.cn/problem/P3810) | [代码](https://www.luogu.com.cn/record/164793020) | 三维偏序模板题 |
 
 
 
