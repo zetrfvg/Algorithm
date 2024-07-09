@@ -9,6 +9,7 @@
 | ST表 | [P3865](https://www.luogu.com.cn/problem/P3865) | [代码](https://www.luogu.com.cn/record/124004599) | 区间最大值 |
 | 快速幂 | [P1226](https://www.luogu.com.cn/problem/P1226) | [代码](https://www.luogu.com.cn/record/163595933) | |
 | 字典树 | [P8306](https://www.luogu.com.cn/problem/P8306) | [代码](https://www.luogu.com.cn/record/124108179) | 查前缀 |
+| 可持久化字典树 | [P4735](https://www.luogu.com.cn/problem/P4735) | [代码](https://www.luogu.com.cn/record/164736271) | 最大异或和 |
 | 线性基 | [P3812](https://www.luogu.com.cn/problem/P3812) | [代码](https://www.luogu.com.cn/record/125099701) | 异或和最大 |
 | 单调栈 | [P5788](https://www.luogu.com.cn/problem/P5788) | [代码](https://www.luogu.com.cn/record/163597631) | 找右侧第一个更大的元素 |
 | 并查集 | [P3367](https://www.luogu.com.cn/problem/P3367) | [代码](https://www.luogu.com.cn/record/163598081) | |
