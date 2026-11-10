@@ -2,34 +2,21 @@
 using namespace std;
 typedef long long ll;
 
+int mod=1e9+7;
+
 void solve(){
-	int n;
-	cin>>n;
-	int ans=0;
-	vector<ll> l(n),r(n);
-	vector<vector<int>> e(n);
-	for(int i=1;i<n;i++){
-		int p;
-		cin>>p;
-		p--;
-		e[p].push_back(i);
+	string s;
+	cin>>s;
+	ll ans=0;
+	int pre=0;
+	map<int,ll> p;
+	p[0]=1;
+	for(int i=0;i<s.size();i++){
+		if(s[i]=='1') pre++;
+		else pre--;
+		ans=(ans+p[pre]*(1LL*s.size()-i))%mod;
+		p[pre]+=(p[pre]+i+2)%mod;
 	}
-	for(int i=0;i<n;i++){
-		cin>>l[i]>>r[i];
-	}
-	function<ll(int)> dfs=[&](int x){
-		ll sum=0;
-		for(auto y:e[x]){
-			sum+=dfs(y);
-		}
-		if(sum>=l[x]){
-			return min(r[x],sum);
-		}else{
-			ans++;
-			return r[x];
-		}
-	};
-	dfs(0);
 	cout<<ans<<'\n';
 }
 
