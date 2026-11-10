@@ -2,28 +2,36 @@
 using namespace std;
 typedef long long ll;
 
-int mod=1e9+7;
-
 void solve(){
-	string s;
-	cin>>s;
-	ll ans=0;
-	int pre=0;
-	map<int,ll> p;
-	p[0]=1;
-	for(int i=0;i<s.size();i++){
-		if(s[i]=='1') pre++;
-		else pre--;
-		ans=(ans+p[pre]*(1LL*s.size()-i))%mod;
-		p[pre]+=(p[pre]+i+2)%mod;
+	int w,h,n,c;
+	cin>>w>>h>>n;
+	char op;
+	multiset<pair<int,int>> sw,sh;
+	multiset<int> lw,lh;
+	sw.insert({w,0}),sh.insert({h,0});
+	lw.insert(w),lh.insert(h);
+	while(n--){
+		cin>>op>>c;
+		if(op=='V'){
+			swap(sw,sh);
+			swap(lw,lh);
+		}
+		auto p=sh.lower_bound({c,0});
+		lh.erase(lh.find(p->first-p->second));
+		lh.insert(p->first-c),lh.insert(c-p->second);
+		sh.insert({p->first,c}),sh.insert({c,p->second});
+		sh.erase(p);
+		if(op=='V'){
+			swap(sw,sh);
+			swap(lw,lh);
+		}
+		cout<<1LL*(*lw.rbegin())*(*lh.rbegin())<<'\n';
 	}
-	cout<<ans<<'\n';
 }
 
 int main(){
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-	int T;
-	cin>>T;
+	int T=1;
 	while(T--){
 		solve();
 	}
